@@ -1,0 +1,13 @@
+source,target,weight,ad_number,ata_chapter,rationale
+bleed_air_l,engine_l,0.65,2009-03-01,75/72,Bleed duct failure causes hot section thermal damage on engine L
+bleed_air_r,engine_r,0.65,2009-03-01,75/72,Bleed duct failure causes hot section thermal damage on engine R
+apu,bleed_air_l,0.45,2014-09-08,49/36,APU bleed valve failure contaminates pneumatic system L side
+apu,bleed_air_r,0.45,2014-09-08,49/36,APU bleed valve failure contaminates pneumatic system R side
+engine_l,hydraulics,0.40,,71/29,Engine L driven hydraulic pump degradation
+engine_r,hydraulics,0.40,,71/29,Engine R driven hydraulic pump degradation
+hydraulics,flight_controls,0.70,2021-16972,29/27,Hydraulic pressure loss reduces flight control surface authority
+hydraulics,landing_gear,0.55,,29/32,Landing gear retraction/extension is hydraulically powered
+bleed_air_l,avionics,0.30,,36/24,Bleed contamination degrades avionics bay cooling
+bleed_air_r,avionics,0.30,,36/24,Bleed contamination degrades avionics bay cooling (R side)
+engine_l,bleed_air_l,0.35,,72/36,Core degradation reduces available bleed extraction capacity L
+engine_r,bleed_air_r,0.35,,72/36,Core degradation reduces available bleed extraction capacity R
